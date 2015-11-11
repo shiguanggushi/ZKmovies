@@ -262,42 +262,57 @@
     width: 325px;
     padding: 15px 0 10px 100px;
     line-height: 20px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
 }
 .notice-tit .z{
 	background: url(../img/tu.png) no-repeat 40px 16px;
+	
 }
 .notice-tit .z:hover{
 	background: url(../img/tu.png) no-repeat 40px -88px;
+	padding-left: 120px;
+	color: #0066C3;
 }
 .notice-tit .x{
 	background: url(../img/tu.png) no-repeat 40px -194px;
 }
 .notice-tit .x:hover{
 	background: url(../img/tu.png) no-repeat 40px -304px;
+	padding-left: 120px;
+	color: #0066C3;
 }
 .notice-tit .c{
 	background: url(../img/tu.png) no-repeat 40px -418px;
 }
 .notice-tit .c:hover{
 	background: url(../img/tu.png) no-repeat 40px -524px;
+	padding-left: 120px;
+	color: #0066C3;
 }
 .notice-tit .v{
 	background: url(../img/tu.png) no-repeat 40px -636px;
 }
 .notice-tit .v:hover{
 	background: url(../img/tu.png) no-repeat 40px -750px;
+	padding-left: 120px;
+	color: #0066C3;
 }
 .notice-tit .b{
 	background: url(../img/tu.png) no-repeat 40px -855px;
 }
 .notice-tit .b:hover{
 	background: url(../img/tu.png) no-repeat 40px -948px;
+	padding-left: 120px;
+	color: #0066C3;
 }
 .notice-tit .n{
 	background: url(../img/tu.png) no-repeat 40px -1044px;
 }
 .notice-tit .n:hover{
 	background: url(../img/tu.png) no-repeat 40px -1134px;
+	padding-left: 120px;
+	color: #0066C3;
 }
 .notice-tit .title{
 	font-size: 16px;
