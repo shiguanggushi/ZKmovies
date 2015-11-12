@@ -578,7 +578,7 @@
 }
 .eq-list{
 	/*border: 1px solid red;*/
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	border-bottom: 1px solid #F2F2F2;
 }
 .list-bigimg{
@@ -705,4 +705,23 @@
 	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 	-webkit-transform: translate3d(0, -2px, 0);
 	transform: translate3d(0, -2px, 0);
+}
+/*
+ * 合作伙伴
+ */
+.our-customer{
+    width: 1224px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+     /*border: 1px solid red;*/ 
+    margin-bottom: 26px;
+    padding-bottom: 20px;
+}
+.customer-top{
+	width: 1224px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    background: url(../img/bg10.png) no-repeat center center;
 }
