@@ -578,6 +578,8 @@
 }
 .eq-list{
 	/*border: 1px solid red;*/
+	padding-bottom: 20px;
+	border-bottom: 1px solid #F2F2F2;
 }
 .list-bigimg{
 	margin-right: -20px;
