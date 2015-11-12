@@ -795,6 +795,7 @@
 {
 	position:relative;
 	overflow:hidden;
+	list-style-type: none;
 }
 .accordion .panel
 {
