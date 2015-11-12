@@ -593,6 +593,7 @@
     _display: inline;
     position: relative;
     z-index: 2;
+    list-style-type: none;
 }
 .list-bigimg .list-infobox{
 	background: #f6F6F6;
