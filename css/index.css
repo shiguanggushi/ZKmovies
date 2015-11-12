@@ -584,10 +584,10 @@
 }
 .list-bigimg li{
 	height: 260px;
-    width: 286px;
+    width: 290px;
     float: left;
     padding: 30PX 0 0 0;
-    margin:0 10px;
+    margin:0 8px;
     _display: inline;
     position: relative;
     z-index: 2;
