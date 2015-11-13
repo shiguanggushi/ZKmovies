@@ -842,3 +842,212 @@
 {
 	color:#FFF;
 }
+
+/*
+ * list
+ */
+.cusmoter-main{
+	position:relative;
+	margin:0 auto;
+	width:1226px;
+}
+.sponsorListHolder{
+	margin:20px 0;
+	background: #f5f5f5;
+	border: 1px solid #F2F2F2;
+}
+.sponsor{
+	width:180px;
+	height:120px;
+	float:left;
+	margin:10px 12px;
+	position:relative;
+	cursor:pointer;
+}
+.sponsorFlip{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+.sponsorFlip:hover{
+	-webkit-box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	-webkit-transform: translate3d(0, -1px, 0);
+	transform: translate3d(0, -1px, 0);
+}
+.sponsorFlip img{
+	position:absolute;
+	width: 180px;
+	height: 120px;
+	background: url(../img/loading.gif) no-repeat center center;
+}
+.sponsorData{
+	display:none;
+}
+.sponsorDescription{
+	padding:20px 10px;
+}
+.sponsorDescription a{
+	font-size:14px;
+    font-family: "微软雅黑";
+    color: #000000;
+    text-align: center;
+    display: block;
+}
+.sponsorDescription a:hover{
+    color: #0066C3;
+}
+.sponsorDescription p{
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+.clear{
+	clear:both;
+}
+/*
+ * 联系我们
+ */
+.our-contact{
+    width: 1224px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+     /*border: 1px solid red;*/ 
+    margin-bottom: 26px;
+    padding-bottom: 20px;
+}
+.contact-top{
+	width: 1224px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    background: url(../img/contactbg.png) no-repeat center center;
+}
+.our-contact-cont{
+	width: 1224px;
+	height: 430px;
+	margin-top: 30px;
+	/*border: solid 1px red;*/
+}
+.contact-left{
+	position: relative;
+	width: 762px;
+	height: 430px;
+	overflow: hidden;
+	float: left;
+}
+.contact-left img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.contact-right{
+	width: 440px;
+	height: 430px;
+	float: right;
+	overflow: hidden;
+	z-index: 10;
+	border: solid 1px red;
+}
+.tact-div{
+	padding: 0 60px;
+}
+.tact-div .tel-email{
+	padding: 40px 0;
+}
+.tact-div .tel-email b{
+	font-size: 48px;
+    line-height: 1;
+    color: #000;
+}
+.tact-div .tel-email span{
+	display: block;
+	text-align: center;
+	font-size: 18px;
+}
+.tact-sreach{
+	width: 296px;
+    height: 50px;
+    border: #000 2px solid;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.tact-sreach .sreach-btn{
+	width: 60px;
+    height: 50px;
+    display: block;
+    float: right;
+    background: #000000;
+    font-family: "宋体";
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 50px;
+   text-align: center;
+}
+.tact-sreach .sreach-ipu{
+	width: 226px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 0px 0px 10px;
+    border: 0px;
+    background: none;
+    color: #7E7E7E;
+    float: left;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    overflow: hidden;
+}
+.showbox{
+	height: 90px;
+    border-top: #eeeeee 1px solid;
+    border-bottom: #eeeeee 1px solid;
+    text-align: center;
+}
+.showbox .tact-show{
+    display: inline-block;
+    background: #fff;
+    padding: 0 10px;
+    color: #000;
+    font-size: 16px;
+    position: relative;
+    top: -12px;
+}
+/*.showbox .jtico_tsina{
+	background: url(../img/sina.jpg) no-repeat !important;
+    width: 4px;
+    height: 40px !important;
+    margin-right: 12px;
+}
+.showbox .jtico_weixin{
+	background: url(../img/weixin.jpg) no-repeat !important;
+    width: 4px;
+    height: 40px !important;
+    margin-right: 12px;
+}
+.showbox .jtico_qzone{
+	background: url(../img/qq.jpg) no-repeat !important;
+    width: 4px;
+    height: 40px !important;
+    margin-right: 12px;
+}
+.showbox .jtico_douban{
+	background: url(../img/dban.jpg) no-repeat !important;
+    width: 4px;
+    height: 40px !important;
+    margin-right: 12px;
+}
+.showbox .jtico_renren{
+	background: url(../img/ren.jpg) no-repeat !important;
+    width: 4px;
+    height: 40px !important;
+    margin-right: 12px;
+}
+.showbox .jtico_jiathis{
+	background: url(../img/jia.jpg) no-repeat !important;
+    width: 4px;
+    height: 40px !important;
+    margin-right: 12px;
+}*/
