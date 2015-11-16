@@ -3,8 +3,8 @@ jQuery(document).ready(function($){
 		height:600, 
 		columns:3, 
 		distance:2, 
-		closedPanelWidth:10, 
-		closedPanelHeight:10, 
+		closedPanelWidth:20, 
+		closedPanelHeight:20, 
 		alignType:'centerCenter',
 		slideshow:true,
 		panelProperties:{
