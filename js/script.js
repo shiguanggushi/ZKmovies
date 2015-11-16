@@ -10,7 +10,7 @@ jQuery(document).ready(function($){
 		else
 		{
 			elem.flip({
-				direction:'rl',
+				direction:'lr',
 				speed: 350,
 				onBefore: function(){
 					elem.html(elem.siblings('.sponsorData').html());

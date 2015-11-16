@@ -140,7 +140,7 @@
 .mov-banner-contaiter{
 	position: relative;
     z-index: 10;
-    height: 460px;
+    height: auto;
 }
 .slider{ 
 	width:1224px;
@@ -927,14 +927,14 @@
 }
 .our-contact-cont{
 	width: 1224px;
-	height: 430px;
+	height: 500px;
 	margin-top: 30px;
 	/*border: solid 1px red;*/
 }
 .contact-left{
 	position: relative;
 	width: 762px;
-	height: 430px;
+	height: 500px;
 	overflow: hidden;
 	float: left;
 }
@@ -945,17 +945,17 @@
 }
 .contact-right{
 	width: 440px;
-	height: 430px;
+	height: 500px;
 	float: right;
 	overflow: hidden;
 	z-index: 10;
-	border: solid 1px red;
+	/*border: solid 1px red;*/
 }
 .tact-div{
 	padding: 0 60px;
 }
 .tact-div .tel-email{
-	padding: 40px 0;
+	padding: 30px 0;
 }
 .tact-div .tel-email b{
 	font-size: 48px;
@@ -1015,39 +1015,99 @@
     position: relative;
     top: -12px;
 }
-/*.showbox .jtico_tsina{
+.contact-right .tact-div .showbox .jtico_tsina{
 	background: url(../img/sina.jpg) no-repeat !important;
     width: 4px;
     height: 40px !important;
     margin-right: 12px;
 }
-.showbox .jtico_weixin{
+.contact-right .tact-div .showbox .jtico_weixin{
 	background: url(../img/weixin.jpg) no-repeat !important;
     width: 4px;
     height: 40px !important;
     margin-right: 12px;
 }
-.showbox .jtico_qzone{
+.contact-right .tact-div .showbox .jtico_qzone{
 	background: url(../img/qq.jpg) no-repeat !important;
     width: 4px;
     height: 40px !important;
     margin-right: 12px;
 }
-.showbox .jtico_douban{
+.contact-right .tact-div .showbox .jtico_douban{
 	background: url(../img/dban.jpg) no-repeat !important;
     width: 4px;
     height: 40px !important;
     margin-right: 12px;
 }
-.showbox .jtico_renren{
+.contact-right .tact-div .showbox .jtico_renren{
 	background: url(../img/ren.jpg) no-repeat !important;
     width: 4px;
     height: 40px !important;
     margin-right: 12px;
 }
-.showbox .jtico_jiathis{
+.contact-right .tact-div .showbox .jtico_jiathis{
 	background: url(../img/jia.jpg) no-repeat !important;
     width: 4px;
     height: 40px !important;
     margin-right: 12px;
-}*/
+}
+.contact-right .tact-div .tact-logo{
+	padding: 20px 0 0 0;
+	width: 320px;
+	height: 120px;
+	position: relative;
+}
+.contact-right .tact-div .tact-logo img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+/*
+ * 底部
+ */
+.mov-bottom{
+	/*background: #111111;*/
+    position: relative;
+    z-index: 333;
+}
+.mov-footer{
+	width: 1224px;
+    height: 100%;
+    margin: 0 auto;
+    background: #F5F5F5;
+}
+.mov-footer .mov-zkxx,.mov-footer .mov-zkfw{
+	float: left;
+    width: 200px;
+    padding-left: 20px;
+    padding-bottom: 20PX;
+}
+.mov-footer .mov-zklxme{
+	float: left;
+    padding-left: 20px;
+    text-align: left;
+}
+.mov-footer h2{
+	font-size: 12px;
+    padding-left: 0px;
+    font-weight: bold;
+    color: #14116e;
+    margin-bottom: 5px;
+}
+.mov-footer P{
+	font-family: "宋体";
+    line-height: 19px;
+    color: #666;
+    font-size: 12px;
+}
+.banquan{
+	width: 1224px;
+    height: 100px;
+    margin: 0 auto;
+    background: #231815;
+}
+.banquan p{
+	color: #FFFFFF;
+	text-align: center;
+	padding: 10px 0 0 0;
+}
