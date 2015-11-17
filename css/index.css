@@ -855,7 +855,7 @@
 .cusmoter-main ul {
 	padding: 6px;
 }
-.cusmoter-main ul li{
+.cusmoter-main .hui{
 	width:160px;
 	height:100px;
 	float:left;
@@ -864,33 +864,20 @@
 	position:relative;
 	overflow:hidden;
 	cursor:pointer;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+.cusmoter-main .hui:hover{
+	z-index: 2;
+	-webkit-box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	-webkit-transform: translate3d(0, -3px, 0);
+	transform: translate3d(0, -3px, 0);
 }
 .cusmoter-main ul li img{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-}
-.cusmoter-main .txt{
-	width:160px;
-	height:30px;
-	background:rgba(0,0,0,0.6);/*透明背景色，不透明其文字内容*/
-	position:absolute;
-	left:0;
-	bottom:0;
-	color:#fff;
-	font-family:"微软雅黑";
-}
-.cusmoter-main .txt h3{
-	font-size:14px;
-	font-weight:100;
-	height:auto;
-	text-align:center;
-	line-height:2px;
-}
-.cusmoter-main .txt p{
-	font-size:12px;
-	text-align:justify;
-	padding: 0 10px;
 }
 .clear{
 	clear:both;
