@@ -20,7 +20,7 @@ function tab(){
       changeOption(this.id);
     }
     lis[i].onmouseout=function(){  
-      timer=setInterval(autoPlay,20000);    
+      timer=setInterval(autoPlay,200000);    
     }
   }
   
